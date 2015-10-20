@@ -28,6 +28,6 @@ http://zftpay.21er.net:15080 # 测试环境
 #####3. 在项目的主info-plist文件中配上NSLocationWhenInUseUsageDescription对应的key<SDK中涉及到定位,需兼容iOS8.0>
 
 
-## 实例demo [点我](https://github.com/cqhcqhcqh/HowToUse)
+## 示例Demo [点我](https://github.com/cqhcqhcqh/HowToUse)
 
 
