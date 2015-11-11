@@ -1,6 +1,7 @@
 # 中汇移动支付，iOS接入设备SDK使用注意
 > **Beta:**
 > 该API仍处于 Beta 阶段
+> 该SDK兼容iOS7及以上设备
 
 ```
 1. 该接口适用对象：中汇合作APP
@@ -24,9 +25,9 @@ http://zftpay.21er.net:15080 # 测试环境
 ## 配置项目,使用注意
 
 #####1. 需要下载必要的Resources 下载地址:[SDKResource.zip](https://codeload.github.com/cqhcqhcqh/SDKResources/zip/master)
-#####2. 导入动态库(将cnepay_developkit_bt_FMK.framework和StateMachineFMK.framework导入至Embedded Binaries)
+#####2. 导入静态库(cnepay_developkit_bt_FMK.framework和StateMachineFMK.framework、SSMposSDK.framework)
 #####3. 在项目的主info-plist文件中配上NSLocationWhenInUseUsageDescription对应的key<SDK中涉及到定位,需兼容iOS8.0>
-
+#####4. 在build settings的other linker flag中设定 -all_load -lstdc++
 
 ## 示例Demo [点我](https://github.com/cqhcqhcqh/HowToUse)
 
